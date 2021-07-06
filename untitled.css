@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	position: absolute;
+	width: 1905px;
+	height: 900px;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/Rectangle.png');
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.row {
+	position: relative;
+    width: 1905px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #A1A1A1;
+}
+
+.container {
+	position: absolute;
+	width: 606px;
+	top: 40px;
+	margin: 0;
+	padding: 0;
+	left: 952px;
+}
+
+.container ul li {
+	list-style: none;
+	display: inline-flex;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+.container ul li a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 19px;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: Montserrat;
+	line-height: 19.5px;
+}
+
+.liner {
+	position: absolute;
+    width: 107px;
+    border: 2px solid #fff;
+    top: 58px;
+    border-radius: 40px;
+}
+.container-table {
+	position: absolute;
+	top: 276px;
+	width: 829px;
+	height: 200px;
+	right: 171px;
+}
+.p-cont-table {
+	position: relative;
+	text-align: center;
+	margin: 0;padding: 0;color: #fff;
+	font-family: Montserrat;
+	font-weight: 500;
+	line-height: 19px;
+}
+.h1-cont-table {
+	position: relative;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 800;
+	font-family: Montserrat;
+	color: #fff;
+	top: 20px;
+}
+#button-cont {
+	position: relative;
+	width: 200px;
+	height: 45px;
+	border-radius: 50px;
+	border: none;
+	background: #4985FF;
+	margin: 0;
+	padding: 0;
+	top: 50px;
+	left: 37%;
+}
+.a-btn-cont-table {
+	position: relative;
+	font-size: 16px;
+	font-family: Montserrat;
+	font-weight: 500;
+	line-height: 19px;
+	text-decoration: none;
+	color: #fff;
+}
+.service {
+	position: absolute;
+	top: 1100px;
+	width: 1113px;
+	height: 644px;
+	left: 405px;
+}
+.head-table-service {
+	position: relative;
+	font-size: 36px;
+	width: 739px;
+	height: 102px;
+	padding: 0;
+	color: #323232;
+	font-family: Montserrat;
+	font-weight: 700;
+	text-align: center;
+	margin: 0 auto;
+}
+.p-table-service {
+	position: relative;
+	top: 50px;
+	width: 730px;
+	height: 41px;
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: Montserrat;
+	font-weight: 400;
+	color: #999999;
+	line-height: 25px;
+}
+.flexbox-service {
+	position: relative;
+	display: flex;
+	height: 200px;
+	top: 161px;
+}
+.flex-one {
+    width: 360px;
+}
+#Ellipse__one {
+	position: absolute;
+	top: -308px;
+	left: 777px;
+}
+#Ellipse__two {
+	position: absolute;
+	top: -298px;
+	left: 787px;
+}
+#Ellipse__three {
+	position: relative;
+	top: -273px;
+	left: 809px;
+}
+.flex-p-table {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	left: 126px;
+	font-size: 18px;
+	font-family: Montserrat;
+	font-weight: 600;
+	color: #000;
+}
+.flex-pp-table {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	left: 126px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: Montserrat;
+	color: #999999;
+	width: 222px;
+	top: 8px;
+}
+.flex-service-btn {
+	position: relative;
+	top: 151px;
+	left: 455px;
+	width: 200px;
+	height: 45px;
+	border: none;
+	border-radius: 30px;
+	background: #4985FF;
+}
+.flex-service-btn a {font-size: 16px;text-decoration: none;color: #fff;font-family: Montserrat;font-weight: 500;}
+#Ellipse__one-two {
+	position: absolute;
+	top: -308px;
+	left: 1130px;
+}
+#Ellipse__two-two {
+	position: absolute;
+	top: -298px;
+	left: 1140px;
+}
+#Ellipse__three-two {
+	position: relative;
+	top: -273px;
+	left: 1162px;
+}
+#Ellipse__one-three {
+	position: absolute;
+	top: -308px;
+	left: 405px;
+}
+#Ellipse__two-three {
+	position: absolute;
+	top: -298px;
+	left: 415px;
+}
+#Ellipse__three-three {
+	position: relative;
+	top: -273px;
+	left: 437px;
+}
+.flex-p-table-two {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 134px;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #000;
+}
+.flex-pp-table-two {position: relative;margin: 0;padding: 0;left: 134px;font-size: 14px;width: 222px;font-weight: 400;font-family: Montserrat;color: #999999;top: 8px;}
+.flex-p-table-three {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 126px;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #000;
+}
+.flex-pp-table-three {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	left: 126px;
+	font-size: 14px;
+	width: 222px;
+	font-weight: 400;
+	font-family: Montserrat;
+	color: #999999;
+	top: 8px;
+}
+.company {
+	position: absolute;
+	top: 1744px;
+	background: #F6F6F8;
+	width: 1905px;
+	height: 797px;
+}
+.company-container {position: relative;height: 575px;width: 1113px;left: 405px;border-bottom: 1px solid #E0E0E0;}
+.company-block-left {
+	position: relative;
+	width: 489px;
+	height: 275px;
+	/* left: 405px; */
+	top: 152px;
+}
+.company-h1 {
+	position: relative;
+	font-size: 36px;
+	font-family: Montserrat;
+	font-weight: 700;
+	color: #323232;
+	line-height: 52px;
+}
+.company-p {
+	position: relative;
+	top: 40px;
+	color: #999999;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: Montserrat;
+}
+.company-a {
+	position: relative;
+	top: 66px;
+}
+.company-a a {
+	font-size: 16px;
+	color: #4985FF;
+	font-weight: 500;
+	font-family: Montserrat;
+	line-height: 19px;
+}
+.company-photo {
+	position: relative;
+	left: 618px;
+	top: -182px;
+	width: 500px;
+	height: 400px;
+}
+.company-photo img {
+	width: 500px;
+	height: 400px;
+}
+.company-footer {display: flex;justify-content: center;width: 1113px;left: 405px;position: relative;top: 70px;}
+.footer-block-one {position: relative;width: 104px;height: 67px;right: 150px;}
+.footer-company-h1 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #000;
+    font-family: Montserrat;
+    line-height: 52px;
+    left: 39px;
+    position: relative;
+    top: -40px;
+    margin: 0;
+}
+.footer-h2 {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -50px;
+	font-size: 16px;
+	color: #999999;
+	font-family: Montserrat;
+	font-weight: 400;
+}
+.footer-block-two {position: relative;width: 104px;height: 67px;right: 81px;}
+.footer-block-three {position: relative;width: 104px;height: 67px;right: 5px;}
+.footer-block-frou {position: relative;width: 104px;height: 67px;left: 79px;}
+.footer-block-five {
+	position: relative;
+	width: 104px;
+	height: 67px;
+	left: 150px;
+}
+.portfolio-service {position: absolute;top: 2540px;width: 1905px;height: 490px;background: #504DC2;}
+.ps-h1 {position: relative;width: 540px;font-size: 36px;font-family: Montserrat;left: 405px;top: 100px;font-weight: 700;color: #fff;line-height: 52px;}
+.ps-button {position: relative;left: 1315px;width: 200px;height: 45px;border: none;border-radius: 25px;background: #4985FF;}
+.ps-button a {font-size: 16px;text-decoration: none;color: #fff;font-family: Montserrat;font-weight: 500;line-height: 19px;}
+.collapse {
+	position: absolute;
+	top: 258px;
+	left: 405px;
+}
+.collapse-center {
+	position: absolute;
+	top: 258px;
+	left: 785px;
+}
+.collapse-right {
+	position: absolute;
+	top: 258px;
+	left: 1165px;
+}
+.collapse:not(.show) {
+	display: block;
+}
+.p-ps {position: relative;margin: 0;padding: 0;left: 30px;width: 300px;top: 7px;font-size: 16px;font-family: Montserrat;font-weight: 600;color: #000;}
+.ps-blue {position: relative;margin: 0;padding: 0;color: #4985FF;width: 26px;top: 30px;font-size: 16px;font-family: Montserrat;font-weight: 600;}
+.ps-lorem {position: relative;top: 30px;width: 350px;font-size: 16px;font-weight: 400;font-family: Montserrat;color: #999999;line-height: 21px;}
+.ps-a {
+	position: relative;
+	top: 50px;
+	font-size: 16px;
+	color: #4985FF;
+	font-family: Montserrat;
+	font-weight: 500;
+}
+.portfolio-service-white {
+	position: absolute;
+	width: 1905px;
+	height: 482px;
+	top: 490px;
+}
+.projects {
+	position: absolute;
+	background-color: #F6F6F8;
+	width: 1905px;
+	height: 776px;
+	top: 3511px;
+}
+.project-head {position: relative;font-size: 36px;font-family: Montserrat;top: 100px;margin: 0;width: 286px;left: 785px;}
+.project-p {margin: 0;width: 730px;height: 41px;font-size: 16px;color: #999999;font-family: Montserrat;position: relative;top: 140px;left: 595px;}
+.images {position: absolute;top: 296px;display: flex;width: 1110px;right: 405px;justify-content: space-between;}
+.project-btn {position: relative;left: 860px;top: 517px;width: 200px;height: 45px;border: none;border-radius: 30px;background: #4985FF;}
+.project-btn a {text-decoration: none;font-size: 16px;font-family: Montserrat;color: #fff;font-weight: 500;line-height: 19px;}
+.video {
+	position: absolute;
+    width: 1905px;
+    height: 570px;
+    top: 4287px;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url('images/Rectangle-1.png');
+}
+.video-header {width: 444px;position: relative;top: 70px;font-size: 36px;font-family: Montserrat;font-weight: 700;color: #fff;left: 738px;}
+.vider-p {position: relative;margin: 0;width: 730px;top: 83px;left: 595px;text-align: center;color: #fff;font-family: Montserrat;font-size: 16px;font-weight: 400;line-height: 25px;}
+video {
+    position: relative;
+    width: 970px;
+    height: 430px;
+    margin: 0;
+    padding: 0;
+    top: 150px;
+    left: 460px;
+}
+.video-player {position: relative;width: 300px;height: 100px;border: 1px solid #fff;border-radius: 65px;left: 803px;top: -116px;}
+#blue {position: relative;left: 40px;top: 20px;}
+#white {position: absolute;top: 20px;right: 197px;}
+.vp-p {
+	position: relative;
+	margin: 0;
+	left: 122px;
+	top: -21px;
+	color: #fff;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 25px;
+}
+.email {
+	position: absolute;
+    width: 1905px;
+    height: 512px;
+    top: 4857px;
+}
+.email-container {position: absolute;top: 165px;}
+.email-h1 {margin: 0;position: relative;top: 85px;font-size: 18px;font-family: Montserrat;width: 350px;left: 785px;font-weight: 600;line-height: 21px;text-align: center;}
+.email-p {margin: 0;position: relative;left: 595px;width: 730px;text-align: center;top: 100px;font-size: 16px;color: #999999;font-weight: 400;font-family: Montserrat;}
+.send-email {position: relative;width: 493px;height: 45px;top: 124px;left: 715px;}
+.email-input {position: relative;width: 299px;height: 45px;border-radius: 30px 0 0 30px;border: none;color: #999999;box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);}
+.button-email {position: relative;width: 190px;border: none;height: 46px;right: 4px;background: #4985FF;border-radius: 0 30px 30px 0;}
+.button-email a {
+	position: relative;
+	font-size: 16px;
+	font-family: Montserrat;
+	font-weight: 500;
+	line-height: 19px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.email-input::placeholder {
+	position: relative;
+	left: 20px;
+}
+.footer-p {
+	position: relative;
+	left: 767px;
+	top: 147px;
+	color: #999999;
+	font-size: 13px;
+	font-family: Montserrat;
+	font-weight: 400;
+}
+footer {position: absolute;top: 5369px;width: 1905px;height: 550px;background: #F6F6F8;}
+.footer-contaiener {position: relative;top: 70px;}
+.foot-cont-one {position: relative;top: 70px;left: 405px;width: 255px;height: 156px;}
+#Group-foot {position: relative;top: 62px;}
+#telephone-foot {position: relative;top: 53px;right: 126px;}
+#place-foot {
+	position: relative;
+	top: 65px;
+}
+h6 {
+	position: relative;
+	top: -19px;
+	font-size: 18px;
+	font-family: Montserrat;
+	color: #000;
+	margin: 0;
+	font-weight: 600;
+}
+.telephone-a {position: relative;top: 55px;left: 30px;text-decoration: none;color: #999999;}
+.font-a-cont-place {position: relative;top: 67px;left: 16px;text-decoration: none;color: #999999;}
+.foot-a-cont {
+	position: relative;
+	top: 18px;
+	right: 115px;
+	color: #999999;
+	text-decoration: none;
+}
+.footer-contaiener-basic {position: relative;left: 690px;top: -15px;width: 245px;height: 198px;}
+.telephone-a-basic {font-size: 14px;text-decoration: none;color: #999999;font-family: Montserrat;font-weight: 400;line-height: 22px;position: relative;left: 15px;}
+#telephone-foot-basic {position: relative;right: 59px;width: 5px;height: 9px;}
+.foot-a-cont-basic {font-size: 14px;text-decoration: none;color: #999999;font-family: Montserrat;font-weight: 400;line-height: 22px;position: relative;top: 41px;right: 56px;}
+#foot-a-cont-placedf-basic {font-size: 14px;text-decoration: none;color: #999999;font-family: Montserrat;font-weight: 400;line-height: 21px;position: relative;top: 107px;}
+#place-foot-basic-one {position: relative;right: 181px;top: 39px;}
+#place-foot-basic-three {position: relative;top: 57px;right: 48px;}
+.foot-a-cont-contacts-basic {font-size: 14px;text-decoration: none;color: #999999;font-family: Montserrat;font-weight: 400;line-height: 22px;position: relative;top: 59px;right: 45px;}
+ul {position: relative;left: 20px;top: -30px;list-style: none;}
+ul li {margin: 30px 0;}
+ul li a {position: relative;left: 15px;text-decoration: none;color: #999999;}
+.foot-head {
+	position: relative;
+	font-size: 18px;
+	font-family: Montserrat;
+	font-weight: 600;
+	line-height: 21px;
+	color: #000;
+}
+.foot-three {position: relative;left: 975px;top: -243px;width: 242px;}
+.foot-head-ft {position: relative;font-size: 18px;font-family: Montserrat;font-weight: 600;line-height: 21px;color: #000;}
+.ft-ul {position: relative;width: 242px;}
+.foot-frou {position: relative;width: 242px;left: 1260px;top: -514px;}
+.foot-head-ff {position: relative;font-size: 18px;font-family: Montserrat;font-weight: 600;line-height: 21px;color: #000;}
+.foot-end {position: absolute;top: 439px;left: 405px;width: 1110px;height: 75px;text-align: center;border-top: 1px solid #E0E0E0;}
+#the-end {color: #999999;text-decoration: none;font-size: 13px;font-family: Montserrat;font-weight: 400;line-height: 20px;position: relative;top: 70px;}
+
+@media screen and (max-width: 1440px) {
+	
+}
+@media screen and (max-width: 1024px) {
+	.container ul li {
+		position: relative;
+		right: 29px;
+	}
+	.container ul li a {
+		position: relative;
+		font-size: 24px;
+	}
+	.p-cont-table {
+		position: relative;
+		height: 23px;
+    	font-size: 23px;
+	}
+	.h1-cont-table {
+		position: relative;
+		width: 905px;
+		margin: 0;
+		right: 32px;
+		font-size: 55px;
+	}
+	#button-cont {
+		position: relative;
+		width: 265px;
+		height: 60px;
+		left: 274px;
+	}
+	.a-btn-cont-table {
+		position: relative;
+		font-size: 21px;
+	}
+	.service {
+		position: relative;
+		width: 1400px;
+	}
+	.head-table-service {
+		position: relative;
+	}
+	.p-table-service {
+		position: relative;
+	}
+	.flexbox-service {
+		position: relative;
+	}
+	.flex-one {
+		position: relative;
+	}
+	.images {
+		position: relative;
+	}
+	#Ellipse__one {
+		position: relative;
+	}
+	#Ellipse__two {
+		position: relative;
+	}
+	#Ellipse__three {
+		position: relative;
+	}
+	.flex-p-table {
+		position: relative;
+	}
+	.flex-pp-table {
+		position: relative;
+	}
+}
+@media screen and (max-width: 768px) {
+	.row {
+		position: relative;
+	}
+	.container ul {
+		position:relative;
+		width: 834px;
+	}
+	.container ul li a {
+		position: relative;
+		font-size: 22px;
+	}
+	.p-cont-table {
+		position:relative;
+		font-size: 28px;
+	}
+	.h1-cont-table {
+		text-align: center;
+		width: 950px;
+		font-size: 53px;
+		position: relative;
+		right: 53px;
+	}
+	#button-cont {
+		position: relative;
+		width: 250px;
+		left: 270px;
+		height: 50px;
+	}
+	.head-table-service {
+		position: relative;
+		font-size: 44px;
+		width: 1000px;
+	}
+	.p-table-service {
+		position: relative;
+		top: 48px;
+		font-size: 21px;
+	}
+}
+@media screen and (max-width: 425px) {
+	.p-cont-table {
+		width: 500px;
+	}
+}
+@media screen and (max-width: 375px) {
+	
+}
+@media screen and (max-width: 320px) {
+	
+}
